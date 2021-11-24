@@ -29,7 +29,7 @@ the backend interface and opening :menuselection:`Settings --> Translations
 * select your module
 * click :guilabel:`Export` and download the file
 
-.. image:: translations/po-export.*
+.. image:: images/po-export.*
     :align: center
     :width: 75%
 

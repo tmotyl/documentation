@@ -5,6 +5,7 @@ import odoo
 import datetime
 
 MODEL_REFERENCE = {
+    'account.account.type': 'addons/account/data/data_account_type.xml',
     'res.country': 'odoo/addons/base/data/res_country_data.xml',
     'res.currency': 'odoo/addons/base/data/res_currency_data.xml',
 }
@@ -18,6 +19,13 @@ class FieldDocumenter(AttributeDocumenter):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.docstringable = (
+            odoo.addons.account.models.account_account_tag.AccountAccountTag,
+            odoo.addons.account.models.account_tax_report.AccountTaxReportLine,
+            odoo.addons.account.models.chart_template.AccountAccountTemplate,
+            odoo.addons.account.models.chart_template.AccountChartTemplate,
+            odoo.addons.account.models.chart_template.AccountFiscalPositionTemplate,
+            odoo.addons.account.models.chart_template.AccountGroupTemplate,
+            odoo.addons.account.models.chart_template.AccountTaxTemplate,
         )
 
     @classmethod

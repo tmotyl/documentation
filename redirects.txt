@@ -316,3 +316,6 @@ developer/reference/backend/assets.rst                           developer/refer
 
 developer/reference/frontend/owl_component_system.rst            developer/reference/frontend/owl_components.rst
 developer/reference/frontend/generic_components.rst              developer/reference/frontend/owl_components.rst
+
+developer/misc/i18n/localization.rst                    developer/howto/localization.rst
+developer/misc/i18n/translations.rst                    developer/howto/translations.rst
